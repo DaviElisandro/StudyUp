@@ -1,11 +1,15 @@
 
-header{
-    background-color: hsl(239, 100%, 62%);
-    padding: auto;
-    margin: auto;
+header, footer {
+    background-image: linear-gradient(to right, #2323f3, blueviolet);
+    padding: 10px 10px 0;
+   
 }
 
- 
+ h1 {
+    text-align: center ;
+    color: #e4e45a
+ }
+    
 ul{
     list-style-type: none;
     display: flex;
@@ -20,6 +24,21 @@ li {
 }
 
 li:hover {
-    background-color: #476ed8;
+    background-color: #47d8c0;
     color: white;  
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+a{
+    color: #3b4675;
+    text-decoration-line: none;
+}
+a:hover {
+    color: lab(53.71% 21.52 -72.56);
+    text-decoration: underline;
+}
+a:visited {
+    color: hwb(54 0% 0%);
 }
