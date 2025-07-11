@@ -1,12 +1,25 @@
-body {
-    background-color: #f3f3f3;
-    font-family: Arial, sans-serif;
+
+header{
+    background-color: hsl(239, 100%, 62%);
+    padding: auto;
+    margin: auto;
 }
-h1{
-    text-align: center;
-    
+
+ 
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: stretch;
 }
-h2 {
-    color: #333;
+li {
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color: #fff6;
+    flex: 1;
     text-align: center;
+}
+
+li:hover {
+    background-color: #476ed8;
+    color: white;  
 }
