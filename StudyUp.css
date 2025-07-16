@@ -1,26 +1,32 @@
-
-header, footer {
+header {
     background-image: linear-gradient(to right, #2323f3, blueviolet);
     padding: 10px 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
 }
 
  h1 {
     text-align: center ;
     color: #e4e45a;
     font-weight: bold;
-    font-size: medium;
+    font-size: 50px;
  }
 
 p {
     font-size: 14px;
     display: flex;
-    justify-content: center;  
+    
+    justify-content: center;
     align-items: center;
-    font-style: Arial, sans-serif;
+    text-align: center;
+   
+    
+}
+#titulo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 article {
@@ -34,7 +40,7 @@ ul{
     display: flex;
     justify-content: stretch;
 }
-li {
+li{
     margin-right: 20px;
     padding: 5px 10px;
     background-color: #fff6;
@@ -49,6 +55,7 @@ li:hover {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    
 }
 a{
     color: #3b4675;
@@ -60,4 +67,45 @@ a:hover {
 }
 a:visited {
     color: hwb(54 0% 0%);
+}
+h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #193b3b;
+}
+img{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: 4%;
+    border-radius: 5%;
+    
+}
+#esquerda{
+    float: left;
+    display: inline;
+    width: 500px;
+    padding-left: 50px;
+  
+}
+
+#direita{
+float: right;
+display: inline;
+width: 500px;
+padding-right: 50px;
+margin-right: 0px;
+
+}
+.lexend-deca{
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+.imagens{
+    width: 300px;
+    height: 300px;
 }
