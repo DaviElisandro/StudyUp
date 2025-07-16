@@ -6,13 +6,18 @@ header, footer {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-   
 }
 
  h1 {
     text-align: center ;
     color: #e4e45a
+    font-weight: bold;
  }
+
+p {
+    margin: 10px 0;
+    font-size: 14px;
+}
     
 ul{
     list-style-type: none;
