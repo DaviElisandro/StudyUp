@@ -18,6 +18,12 @@ p {
     margin: 10px 0;
     font-size: 14px;
 }
+
+article {
+   flex-direction: row;
+   display: inline;
+  justify-content: space-around;
+}
     
 ul{
     list-style-type: none;
