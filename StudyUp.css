@@ -2,6 +2,10 @@
 header, footer {
     background-image: linear-gradient(to right, #2323f3, blueviolet);
     padding: 10px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
    
 }
 
