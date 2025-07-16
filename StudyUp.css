@@ -10,13 +10,17 @@ header, footer {
 
  h1 {
     text-align: center ;
-    color: #e4e45a
+    color: #e4e45a;
     font-weight: bold;
+    font-size: medium;
  }
 
 p {
-    margin: 10px 0;
     font-size: 14px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    font-style: Arial, sans-serif;
 }
 
 article {
