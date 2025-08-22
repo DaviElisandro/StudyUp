@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="StudyUp.css">
+    <script src="matematica.js"></script>
     <title>Matemática</title>
 </head>
 <body>
@@ -22,6 +23,60 @@
             </ul>
         </nav>
     </header>
-    <h1>Cansou de quebrar? Confira algumas dicas!</h1>
+
+    <main class="conteudo-matematica">
+        <h2>Guia de Estudos: Matemática</h2>
+        <p>A matemática pode ser desafiadora, mas com a abordagem certa, ela se torna mais lógica e divertida. O segredo é a prática constante e o entendimento dos conceitos.</p>
+
+        <section class="secao-metodo">
+            <h3>1. Entenda o Conceito, não só a Fórmula</h3>
+            <p>Antes de memorizar uma fórmula, dedique tempo para entender o porquê e como ela funciona. Isso torna a matéria mais intuitiva e facilita a resolução de problemas mais complexos.</p>
+        </section>
+
+        <section class="secao-metodo">
+            <h3>2. Pratique, Pratique, Pratique</h3>
+            <p>A matemática é uma habilidade que se aprimora com a prática. Resolva o máximo de exercícios possível para fixar os conceitos e ganhar agilidade.</p>
+        </section>
+        
+        <section class="secao-interativa">
+            <h3>Teste seu Conhecimento e Links Úteis</h3>
+            <div class="quiz">
+                <h4>Quiz Rápido: Álgebra</h4>
+                <p>Qual o valor de <strong>x</strong> na equação <strong>3x + 5 = 20</strong>?</p>
+                <button onclick="checkAnswer('5')">5</button>
+                <button onclick="checkAnswer('10')">10</button>
+                <button onclick="checkAnswer('6')">6</button>
+                <p id="quiz-resposta"></p>
+            </div>
+            <p>Recursos externos para te ajudar a estudar:</p>
+            <ul>
+                <li><a href="https://pt.khanacademy.org/" target="_blank">Khan Academy (Plataforma completa de estudos)</a></li>
+                <li><a href="https://www.youtube.com/c/MatemáticaRio" target="_blank">Matemática Rio com Prof. Rafael Procopio</a></li>
+            </ul>
+        </section>
+
+        <section class="secao-fluxo">
+            <h3>Fluxo de Estudo Interativo</h3>
+            <div class="fluxo-item" onclick="toggleConteudo('etapa1')">
+                <span>Etapa 1: Aritmética e Operações Básicas</span>
+            </div>
+            <div id="etapa1" class="conteudo-fluxo">
+                <p>Reforce o básico: soma, subtração, multiplicação, divisão, frações, potências e raízes. É o alicerce para todos os outros tópicos.</p>
+            </div>
+
+            <div class="fluxo-item" onclick="toggleConteudo('etapa2')">
+                <span>Etapa 2: Fundamentos da Álgebra</span>
+            </div>
+            <div id="etapa2" class="conteudo-fluxo">
+                <p>Introduza variáveis, equações e inequações de primeiro grau. Entenda como manipular as expressões para isolar as incógnitas.</p>
+            </div>
+
+            <div class="fluxo-item" onclick="toggleConteudo('etapa3')">
+                <span>Etapa 3: Geometria e Lógica</span>
+            </div>
+            <div id="etapa3" class="conteudo-fluxo">
+                <p>Estude figuras planas e espaciais, e suas propriedades. Use a lógica para resolver problemas de área, perímetro e volume.</p>
+            </div>
+        </section>
 </body>
 </html>
