@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="StudyUp.css">
-    <link href="StudyUp.css" rel="sheetsyle">
-    <title>Ciênicas Da Natureza</title>
+    <script src="ciencias.js"></script>
+    <title>Ciências Da Natureza</title>
 </head>
 <body>
     <header>
@@ -23,5 +23,62 @@
             </ul>
         </nav>
     </header>
+
+    <main class="conteudo-ciencias">
+        <h2>Guia de Estudos: Ciências da Natureza</h2>
+        <p>Aprender ciências vai muito além de fórmulas e teorias. É sobre conectar o mundo ao seu redor. Veja como estudar essa matéria de forma mais dinâmica.</p>
+
+        <section class="secao-metodo">
+            <h3>1. Conecte a Teoria com a Prática</h3>
+            <p>Sempre que possível, relacione o que você estuda com o dia a dia. Por exemplo, ao estudar física, pense em como as leis do movimento se aplicam a um carro em movimento ou a uma bola sendo chutada.</p>
+        </section>
+
+        <section class="secao-metodo">
+            <h3>2. Use Mapas Mentais e Diagramas</h3>
+            <p>Organize conceitos complexos em mapas mentais. Desenhe diagramas para processos biológicos, como a fotossíntese, ou para reações químicas. Isso ajuda a visualizar as conexões e a fixar o conteúdo.</p>
+        </section>
+
+        <section class="secao-interativa">
+            <h3>Teste Rápido e Links Úteis</h3>
+            <div class="quiz">
+                <h4>Quiz: Biologia</h4>
+                <p>Qual é o processo pelo qual as plantas convertem a luz solar em energia?</p>
+                <button onclick="checkAnswer('Fotossíntese')">Fotossíntese</button>
+                <button onclick="checkAnswer('Respiração')">Respiração</button>
+                <button onclick="checkAnswer('Decomposição')">Decomposição</button>
+                <p id="quiz-resposta"></p>
+            </div>
+            <p>Recursos externos para aprofundar seus estudos:</p>
+            <ul>
+                <li><a href="https://www.youtube.com/c/biologiatotal" target="_blank">Biologia Total com Prof. Jubilut</a></li>
+                <li><a href="https://www.youtube.com/c/CienciaTodoDia" target="_blank">Ciência Todo Dia (Vlog de Ciência)</a></li>
+            </ul>
+        </section>
+
+        <section class="secao-fluxo">
+            <h3>Fluxo de Estudo Interativo</h3>
+            <div class="fluxo-item" onclick="toggleConteudo('etapa1')">
+                <span>Etapa 1: Biologia (O Estudo da Vida)</span>
+            </div>
+            <div id="etapa1" class="conteudo-fluxo">
+                <p>Comece entendendo a célula, a genética e os seres vivos. Depois, avance para os sistemas do corpo humano e ecologia.</p>
+            </div>
+
+            <div class="fluxo-item" onclick="toggleConteudo('etapa2')">
+                <span>Etapa 2: Química (A Matéria e Suas Transformações)</span>
+            </div>
+            <div id="etapa2" class="conteudo-fluxo">
+                <p>Estude a tabela periódica, ligações químicas e reações. Pratique balanceamento de equações e cálculos estequiométricos.</p>
+            </div>
+
+            <div class="fluxo-item" onclick="toggleConteudo('etapa3')">
+                <span>Etapa 3: Física (As Leis do Universo)</span>
+            </div>
+            <div id="etapa3" class="conteudo-fluxo">
+                <p>Aprofunde-se em mecânica, termodinâmica, eletricidade e óptica. Concentre-se em entender as leis e aplicá-las em problemas.</p>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
