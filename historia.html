@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StudyUp.css">
+    <script src="historia.js"></script>
+    <title>História</title>
+</head>
+<body>
+    <header>
+        <h1>StudyUp</h1>
+        <nav>
+            <ul>
+                <li><a href="StudyUp.html">Início</a></li>
+                <li><a href="português.html">Português</a></li>
+                <li><a href="matematica.html">Matemática</a></li>
+                <li><a href="cienciasdanatureza.html">Ciências da Natureza</a></li>
+                <li class="ativo"><a href="historia.html">História</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main class="conteudo-historia">
+        <h2>Muitos períodos da história e não sabe por onde começar? Confira algumas dicas!</h2>
+        <p>Estudar história por conta própria pode ser uma experiência muito gratificante, mas é preciso ter disciplina. Separamos aqui alguns métodos que são considerados os melhores para quem quer se aprofundar nessa área:</p>
+        
+        <section class="secao-metodo">
+            <h3>1. Abordagem Temática e Cronológica</h3>
+            <p>O ideal é combinar os dois métodos. Comece com uma abordagem cronológica base sólida dos eventos e, depois, parta para uma abordagem temática, focando em assuntos que te interessem mais. Por exemplo:</p>
+            <ul>
+                <li><strong>Cronologia:</strong> Comece com a Idade Antiga (Mesopotâmia, Egito, Grécia, Roma) e avance gradualmente até os tempos modernos. Isso te ajuda a entender a sequência dos fatos.</li>
+                <li><strong>Temática:</strong> Depois de ter essa visão geral, aprofunde-se em temas específicos como a Revolução Francesa, a Guerra Fria ou a história do Brasil Império, por exemplo. Isso torna o estudo mais interessante.</li>
+            </ul>
+        </section>
+        
+        <section class="secao-metodo">
+            <h3>2. Utilize Diferentes Fontes de Informação</h3>
+            <p>Não se prenda a apenas um tipo de material. A história é rica em detalhes e perspectivas, então explore diferentes formatos:</p>
+            <ul>
+                <li><strong>Livros e artigos:</strong> A leitura é a base do estudo de história. Busque por livros de autores renomados, livros didáticos de qualidade e artigos acadêmicos sobre os temas que você está estudando.</li>
+                <li><strong>Documentários e filmes:</strong> Muitos documentários de alta qualidade podem dar vida a períodos históricos. Use-os como complemento, mas sempre com senso crítico, verificando a informação com outras fontes.</li>
+                <li><strong>Podcasts e canais do YouTube:</strong> Existem muitos canais e podcasts de história que são ótimos para aprender de forma mais descontraída. Eles podem ser um ponto de partida para um estudo mais aprofundado.</li>
+            </ul>
+        </section>
+    </main>
+    <section class="secao-metodo">
+    <h3>Linha do Tempo Interativa</h3>
+    <div class="timeline">
+        <div class="timeline-item" onclick="toggleDetails('detalhe-antiga')">
+            <div class="timeline-ano">4000 a.C.</div>
+            <div class="timeline-titulo">Idade Antiga</div>
+        </div>
+        <div class="detalhe-conteudo" id="detalhe-antiga">
+            <p>Período que abrange o surgimento das primeiras civilizações, como a Mesopotâmia e o Egito, até a queda do Império Romano do Ocidente.</p>
+        </div>
+
+        <div class="timeline-item" onclick="toggleDetails('detalhe-media')">
+            <div class="timeline-ano">476 d.C.</div>
+            <div class="timeline-titulo">Idade Média</div>
+        </div>
+        <div class="detalhe-conteudo" id="detalhe-media">
+            <p>Período marcado pela centralização do poder na Igreja, o feudalismo e o surgimento de reinos bárbaros. Teve eventos como as Cruzadas e a Peste Negra.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
